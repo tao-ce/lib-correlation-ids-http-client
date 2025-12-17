@@ -1,0 +1,36 @@
+{
+  "name": "oat-sa/lib-correlation-ids-http-client",
+  "description": "OAT Correlation Ids HTTP Client Library",
+  "type": "library",
+  "license": "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/oat-sa/lib-correlation-ids"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3 || ^8.0",
+    "oat-sa/lib-correlation-ids": "<1.0",
+    "symfony/http-client": "^4.2 || ^5.0 || ^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OAT\\Library\\CorrelationIdsHttpClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OAT\\Library\\CorrelationIdsHttpClient\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Open Assessment Technologies S.A.",
+      "homepage": "https://www.taotesting.com"
+    }
+  ]
+}
